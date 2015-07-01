@@ -13,55 +13,87 @@
   <script src="js/vendor/modernizr.js"></script>
  </head>
 <body>
-<div class="row">
-<div class="small-12 large-3 columns">
-<h1><img src="http://placehold.it/400x100&text=Logo"/></h1>
-</div>
-<div class="large-9 columns"></div>
-<div class="large-12 columns">
-<ul class="right inline-list">
-<li><a href="#">Inicio</a></li>
-<li><a href="#">Nosotros</a></li>
-<li><a href="#">Servicios</a></li>
-<li><a href="#">Contacto</a></li>
-</ul>
-</div>
-</div>
- 
- 
-<div class="row">
-<div class="large-12 columns">
-<ul class="example-orbit" data-orbit>
-<li><img src="http://placehold.it/1000x400&amp;text=[%20img%201%20]"></li>
-<li><img src="http://placehold.it/1000x400&amp;text=[%20img%202%20]"></li>
-<li><img src="http://placehold.it/1000x400&amp;text=[%20img%203%20]"></li>
-</ul>
-</div>
-</div>
-<hr/>
- 
-<div class="row icc-content fullwidth">
+
+<div id="icc-wrap" class="fullwidth">
+<!-- Menu listas
+  <div class="row">
+   <div class="column large-4 icc-menu">
+    LOGO
+   </div>
+   <div class="column large-8 text-right">
+     <ul class="inline-list icc-menu">
+      <li></li><a href="#">Link 01</a></li>
+      <li ><a href="#">Link 01</a></li>
+      <li><a href="#">Link 01</a></li>
+      <li><a href="#">Link 01</a></li>
+    </ul>
+   </div>
+  </div>
+-->
+
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+    <h1><a href="#">ICC S.L</a></h1>
+    </li>
+  </ul>
+  <section class="top-bar-section">
+   <ul class="right">
+    <li class=""><a href="#">Inicio</a></li>
+    <li class=""><a href="#">Nosotros</a></li>
+    <li class=""><a href="#">Servicios</a></li>
+    <li class=""><a href="#">Contacto</a></li>
+    <li class="divider"></li>
+    <li class="has-form"><a class="button">TF 928 00 00 00</a></li>
+   </ul>
+  </section>
+
+</nav>
+
+
+ 	
+ <div id="icc-hero">
+ <img src="img/portada_01.jpg" alt="Slide1" />
+<!--
+
+	 <ul class="icc-orbit" data-orbit data-options= "bullets:false;">
+	  <li> 
+	    <img src="img/ext_01.jpg" alt="Slide1" />
+	  </li>
+	  <li> 
+	    <img src="img/ext_02.jpg" alt="Slide1" />
+	  </li>	 
+	  <li> 
+	    <img src="img/portada_01.jpg" alt="Slide1" />
+	  </li>	 
+	 </ul>
+ -->
+  </div>
+
+<!-- END ICC-HERO -->
+<div id="icc-home">
+ <div class="row">
 <div class="large-4 columns">
-<img src="http://placehold.it/400x300&text=[img]"/>
-<h4>This is a content section.</h4>
-<p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+<img src="img/trabajos_icc.jpg"/>
+<h2 class="text-center">Trabajos</h2>
+<p class="text-justify">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
 </div>
 <div class="large-4 columns">
-<img src="http://placehold.it/400x300&text=[img]"/>
-<h4>This is a content section.</h4>
-<p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+<img src="img/extintores_icc.jpg"/>
+<h2 class="text-center">Mantenimiento</h2>
+<p class="text-justify">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
 </div>
 <div class="large-4 columns">
-<img src="http://placehold.it/400x300&text=[img]"/>
-<h4>This is a content section.</h4>
-<p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+<img src="img/instalaciones.jpg"/>
+<h2 class="text-center">Instalaciones</h2>
+<p class="text-justify">Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
 </div>
 </div>
  
 <div class="row">
 <div class="large-12 columns">
 <div class="panel">
-<h4>Get in touch!</h4>
+<h4>LE AYUDAMOS?</h4>
 <div class="row">
 <div class="large-9 columns">
 <p>We'd love to hear from you, you attractive person you.</p>
@@ -72,12 +104,12 @@
 </div>
 </div>
 </div>
+ </div>
 </div>
- 
-<footer class="row icc-footer fullwidth">
- <div class="large-12 columns"> 
- <hr/> 
-  <div class="row">
+ <!-- END ICC-HOME -->
+ <footer id="icc-footer" class="row fullwidth icc-topspace">
+
+<hr/>  
    <div class="large-6 columns">
    <p>2015 &copy; Copyright ICC S.L</p>
    </div>
@@ -87,9 +119,15 @@
      <li><a href="#">Política de privacidad</a></li>
     </ul>
    </div>
-  </div>
-</div>
+
 </footer>
+
+</div>
+<!-- END ICC-WRAP -->
+
+
+
+
 <script>
   document.write('<script src=js/vendor/' +
   ('__proto__' in {} ? 'zepto' : 'jquery') +

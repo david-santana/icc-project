@@ -5,5 +5,23 @@
   max-width: initial;
 }
 
-.icc-content {} 
-.icc-footer {}
+#icc-hero img { margin:0 ; height: 400px;} 
+#icc-wrap {}
+
+#icc-home {
+ background-image:url("../img/construction_02.jpg") ;
+ margin:0;
+ padding-top: 3em;
+ padding-bottom: 2em; 
+ color: #333;
+ 
+ }
+.icc-menu { 
+  position: absolute;
+  z-index: 999;
+  font-size: 26px;
+}
+#icc-footer {
+  height: 5em;
+}
+.icc-topspace { padding-top: 1em }
