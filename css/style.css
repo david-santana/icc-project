@@ -4,6 +4,10 @@
   margin-right: auto;
   max-width: initial;
 }
+.round-img {
+ -moz-border-radius: 50% 50%;
+ border-radius: 50% 50%;
+}
 
 #icc-hero img { margin:0 ; height: 400px;} 
 #icc-wrap {}
