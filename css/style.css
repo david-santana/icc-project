@@ -32,7 +32,8 @@
  }
 
 footer  {
-  background: #FFD42A;
+ background: #FFD42A;
+ padding: 0.5em;
 }
 .icc-topspace { padding-top: 1em }
 li.name a { margin-left: 4em; color: black; } 
