@@ -1,5 +1,6 @@
 # ffd42a
 
+
 .fullwidth {
   width: 100%;
   margin-left: auto;
@@ -17,7 +18,7 @@
 
 #icc-home {
  margin:0;
- padding-top: 3em;
+ padding-top: 5em;
  padding-bottom: 2em;
 }
 
@@ -29,11 +30,6 @@
  color: #333;
  
  }
-.icc-menu { 
-  position: absolute;
-  z-index: 999;
-  font-size: 26px;
-}
 
 footer  {
   background: #FFD42A;
@@ -45,6 +41,6 @@ li.name a { margin-left: 4em; color: black; }
  background: #FFD42A;
  color: #AA0000;
  }
-.top-bar li a { color: #AA0000 ; }
-.top-bar-section li:not(.has-form)  a:not(.button):hover { background-color: #AA0000; }
+.top-bar-section ul li a { color: #AA0000 ; font-size: 1.1em; }
+.top-bar-section li:not(.has-form)  a:not(.button):hover { background-color: #FFDD55; color:black; }
 .button { background-color: #AA0000; }
