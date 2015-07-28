@@ -1,5 +1,3 @@
-# ffd42a
-
 
 .fullwidth {
   width: 100%;
@@ -35,6 +33,8 @@ footer  {
  background: #FFD42A;
  padding: 0.5em;
 }
+footer a { color: #AA0000; }
+
 .icc-topspace { padding-top: 1em }
 li.name a { margin-left: 4em; color: black; } 
 
