@@ -16,7 +16,7 @@
 
 .logo { position: absolute; z-index:999; margin-top: 0.3em; }
 .nombre h3 { position: absolute; color: #A00; } 
-
+.top-space { margin-top: 2em; }
 
 #icc-home {
  margin:0;
