@@ -14,6 +14,10 @@
 #icc-hero img { margin:0 ; height: 400px;} 
 #icc-wrap {}
 
+.logo { position: absolute; z-index:999; margin-top: 0.3em; }
+.nombre h3 { position: absolute; color: #A00; } 
+
+
 #icc-home {
  margin:0;
  padding-top: 5em;
